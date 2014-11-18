@@ -6,7 +6,7 @@
 #
 #
 hostsfile_entry node['ipaddress'] do
-    hostname  ichabod.thalhalla.net
+    hostname  'ichabod.thalhalla.net'
     comment   'added by thoth recipe'
     retries 3
     retry_delay 15
